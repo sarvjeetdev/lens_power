@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    /* scroll-behavior: smooth; */
+}
+nav {
+    /* top: 0;
+    height: 10vh;
+    width: 100vw; */
+    /* overflow: hidden; */
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;   
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    font: normal normal normal 25px Bahnschrift;
+}
+
+
+
+.logo{
+    
+    height: 100px;
+    margin-left: 200px;
+
+
+}
+nav ul a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.landing{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("main.jpg");
+    background-repeat: no-repeat;
+     /* background-size: 100%; */
+     /* background-attachment:fixed;  */
+}
+.vm{
+    font-size: 72px;
+    background: linear-gradient(to bottom, #8ddeff 50%, #d85d63 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-family: 'Charm', cursive;
+    padding-top: 30vh;
+    padding-left: 10vw;
+}
+.txt{
+    color: white;
+    margin-top: 15px;
+    padding-left: 11vw;
+    font-size: 30px;
+    font-family: 'Charm', cursive;
+}
+.but{
+    margin-left: 32vw;
+    margin-top: 10vh;
+    height: 40px;
+    width: 200px;
+    font-size: 18px;
+    background-color: rgb(202, 198, 198);
+    border-radius: 19px;
+    cursor: pointer;
+}
+ .working{
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb(12, 12, 12) !important;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* background-attachment: fixed; */
+} 
+ .work{
+    align-items: center;
+    text-align: center;
+    font-size: 48px;
+    padding-top: 5vh;
+    color: white;
+} 
+ .des{
+    margin-left: 15vw;
+    margin-top: 5vh;
+    height: 70vh;
+    width: 70vw;
+    background-color: rgb(153, 151, 151) !important;
+    color: white;
+    border-radius: 19px;
+    font-size: 32px;
+    padding: 20px;
+    font-family: 'Bona Nova', serif;
+} 
+.team{
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb(133, 130, 130) !important;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.te{
+    align-items: center;
+    text-align: center;
+    font-size: 48px;
+    padding-top: 5vh;
+}
+
+
+
+@media (max-width: 575.98px) { 
+    nav div{
+        visibility: hidden;
+     }
+    .landing{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("main.jpg");
+        background-repeat: no-repeat;
+          /* background-size: 100%;  */
+         /* background-attachment:fixed;  */
+    }
+    .but{
+        margin-left: 20vw;
+        margin-top: 5vh;
+        height: 40px;
+        width: 80px;
+        font-size: 10px;
+        background-color: rgb(202, 198, 198);
+        border-radius: 19px;
+        cursor: pointer;
+    }
+    .vm{
+        font-size: 32px;
+        background: linear-gradient(to bottom, #8ddeff 50%, #d85d63 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Charm', cursive;
+        padding-top: 30vh;
+        padding-left: 10vw;
+    }
+    .txt{
+        color: white;
+        margin-top: 15px;
+        padding-left: 11vw;
+        font-size: 15px;
+        font-family: 'Charm', 'cursive';
+    }
+
+}
+
+
+
+ @media (min-width: 576px) and (max-width: 770px) { 
+    .landing{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("main.jpg");
+        background-repeat: no-repeat;
+          /* background-size: 100%;  */
+         /* background-attachment:fixed;  */
+    }
+    .but{
+        margin-left: 30vw;
+        margin-top: 10vh;
+        height: 40px;
+        width: 100px;
+        font-size: 10px;
+        background-color: rgb(202, 198, 198);
+        border-radius: 19px;
+        cursor: pointer;
+    }
+    .vm{
+        font-size: 50px;
+        background: linear-gradient(to bottom, #8ddeff 50%, #d85d63 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Charm', cursive;
+        padding-top: 30vh;
+        padding-left: 25vw;
+    }
+    .txt{
+        color: white;
+        margin-top: 15px;
+        padding-left: 25vw;
+        font-size: 25px;
+        font-family: 'Charm', 'cursive';
+    }
+
+   
+
+
+
+
+ }
+
+
+/* @media (min-width: 771px) and (max-width: 991.98px) { 
+
+
+ } */
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .landing{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("main.jpg");
+        background-repeat: no-repeat;
+          /* background-size: 100%;  */
+         /* background-attachment:fixed;  */
+    }
+    .but{
+        margin-left: 30vw;
+        margin-top: 10vh;
+        height: 40px;
+        width: 100px;
+        font-size: 10px;
+        background-color: rgb(202, 198, 198);
+        border-radius: 19px;
+        cursor: pointer;
+    }
+    .vm{
+        font-size: 50px;
+        background: linear-gradient(to bottom, #8ddeff 50%, #d85d63 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Charm', cursive;
+        padding-top: 30vh;
+        padding-left: 25vw;
+    }
+    .txt{
+        color: white;
+        margin-top: 15px;
+        padding-left: 25vw;
+        font-size: 25px;
+        font-family: 'Charm', 'cursive';
+    }
+
+   
+
+ } 
+
+
+
+@media (min-width: 1200px) {
+    .landing{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("main.jpg");
+        background-repeat: no-repeat;
+          background-size: 100%; 
+         /* background-attachment:fixed;  */
+    }
+    .landing{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("main.jpg");
+        background-repeat: no-repeat;
+          /* background-size: 100%;  */
+         /* background-attachment:fixed;  */
+    }
+    .but{
+        margin-left: 30vw;
+        margin-top: 7vh;
+        height: 40px;
+        width: 200px;
+        font-size: 10px;
+        background-color: rgb(202, 198, 198);
+        border-radius: 19px;
+        cursor: pointer;
+        
+    }
+    .vm{
+        font-size: 80px;
+        background: linear-gradient(to bottom, #8ddeff 50%, #d85d63 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-family: 'Charm', cursive;
+        padding-top: 25vh;
+        padding-left: 15vw;
+    }
+    .txt{
+        color: white;
+        margin-top: 10px;
+        padding-left: 15vw;
+        font-size: 30px;
+        font-family: 'Charm', 'cursive';
+    }
+
+   
+
+
+
+ }

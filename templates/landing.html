@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href=" {{ url_for('static', filename='css/style.css') }} "  media="all">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Vitreoous Macula</title>
+</head>
+<body>
+    <nav class="navbar  navbar-dark justify-content-center ">
+        <div><a class="navbar-brand" href="#1">Home</a>
+         <a class="navbar-brand" href="#2">Working</a>
+         <a class="navbar-brand" href="#3">Team</a>
+         </div>
+         <div  class="d-none d-lg-block "> 
+         <img class="logo d-none d-lg-block" src="{{ url_for('static', filename='css/logo.png') }}" alt="">
+          </div>
+       </nav>
+    <main>
+        <div class="landing" id="1">
+            <div class="vm">Viterous Macula</div>
+            <p class="txt">The eyes are the window of soul.</p>
+            <form action="/login">
+            <button class="but" > See For Yourself</button></form>
+        </div>
+        <div class="working" id="2">
+            <p class="work">Working</p>
+            <div class="des">
+                To prevent the vison loss or serious vision problem of the patient early detection of myopia, hyperopia and presbyopia is very necessary in healthcare department. Our Web application is a part of DL application has been increased with the accuracy of predicting disease give more importance to these techniques. DL techniques in the existing are to detect the disease as earlier so it will avoid vision blindness. From the mentioned attribute can conclude that a person can affect or affected or how much affected by these diseases or not. Using data and Deep Learning with effective results is major advantage to predict vision disease in early stage to reduce the chance of risky level.
+            </div>
+        </div>
+        <div class="team" id="3">
+            <p class="te">Team</p>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin</title>
+    <link href="{{ url_for('static', filename='css/stylelogin.css') }}" rel="stylesheet" media="all">
+    <!-- <link rel="stylesheet" href="stylelogin.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar  navbar-dark justify-content-center ">
+        <!-- <div><a class="navbar-brand" href="#">Home</a>
+         <a class="navbar-brand" href="#">Working</a>
+         <a class="navbar-brand" href="#">Team</a>
+         </div> -->
+         <div  class="d-none d-lg-block "> 
+         <form action="/">
+         <button class = "backchodi" style="background: none; border: none;"><img class="logo d-none d-lg-block" src="{{ url_for('static', filename='css/logo.png') }}" alt=""></button>
+        </form>
+          </div>
+       </nav>
+    <main>
+        <div class="signin">
+            <div class="content">
+                <form action="/verify" method="post">
+                    <input class = "email" type="email" name="email" placeholder="E-mail">
+                    <input class="sub" type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
